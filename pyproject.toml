@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pheno-encoder"
+version = "0.1.0"
+description = ""
+authors = ["Alex Abbey <alexabbey4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pheno_encoder"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
