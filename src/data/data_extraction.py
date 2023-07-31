@@ -15,4 +15,4 @@ def load_data(path):
     # Concatenate all dataframes
     data = pd.concat(dataframes, ignore_index=True)
 
-    return data
+    return data, dataframes
