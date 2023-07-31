@@ -1,15 +1,15 @@
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-#import torch
+import torch
 import numpy as np
 from random import randint, sample
 
 
 sample_number = 1
-n_diseases_to_use = 2
+n_diseases_to_use = 10
 num_traits_average = 20
 data_dir = '../../data/raw/sample_disease_phenotypes/'
-train_size = 10
+train_size = 1000
 
 
 def classes_to_vector(classes, subset):
